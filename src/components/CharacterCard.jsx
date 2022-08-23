@@ -153,7 +153,7 @@ const CharacterCard = ({ data }) => {
           </SectionIcon>
         </ContentWrapper>
       </Container>
-      <Button>go back</Button>
+      <Button data-testid="character-card">go back</Button>
     </div>
   );
 };

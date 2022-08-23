@@ -18,6 +18,7 @@ const Button = ({ children, isFavorite }) => {
   const history = useHistory();
   return (
     <ButtonContainer
+    data-testid="button-goback"
       onClick={() => {
         isFavorite ? history.push("/favorites") : history.goBack();
       }}
